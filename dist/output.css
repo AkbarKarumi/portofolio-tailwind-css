@@ -1308,6 +1308,10 @@ body{
   color: rgb(20 184 166 / var(--tw-text-opacity));
 }
 
+.dark .dark\:inline-block {
+  display: inline-block;
+}
+
 .dark .dark\:bg-dark {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -1336,6 +1340,11 @@ body{
 .dark .dark\:shadow-slate-500 {
   --tw-shadow-color: #64748b;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.dark .dark\:hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(20 184 166 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
